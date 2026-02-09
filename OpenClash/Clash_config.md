@@ -12,21 +12,7 @@
 ![alt text](./img/img_260206.png)
 
 ### 2026-1-22
-在防火墙`关闭硬件流量卸载`,可以使连接节点的设备nat类型变成Fullcone
-
-![alt text](./img/image_26122.png)
-
-![alt text](./img/image_26122-1.png)
-
-![alt text](./img/image_26122-2.png)
-
-`等待测试ps5nat类型`
-
-### 2025-08-27
-
-增加了 `/tmp/etc/openclash` 的路径备份，名为 `tmp-bak`。
-
-便于更新 OpenClash 版本后快速启动，否则会全部丢失。
+在防火墙`打开硬件流量卸载`,网络环境更好,mt6000支持硬件流量卸载
 
 ---
 
@@ -34,85 +20,9 @@
 
 更新了 Smart 内核，目前收集数据中，等待训练成自己的模型。
 
-后台订阅转换寄了，需要换一个订阅后台连接。
-
----
-
-### 2025-06-25
-
-OpenClash 更新路径 404，版本更新里面没有新版本的解决办法：更换了 dev 版本的更新路径，手动更新好之后即可恢复正常。
-
-```
-https://github.com/vernesong/OpenClash/tree/package/dev
-```
-
----
-
-### 2025-04-17
-
-规则也不行，现在怀疑是开了绕过大陆，导致两边返回的信息不一样，可以尝试一下。
-
----
-
-### 2025-04-16
-
-```
-ruleset=🚀 强制代理,https://raw.githubusercontent.com/Aethersailor/Custom_OpenClash_Rules/main/rule/Custom_Proxy.list,28800
-```
-
-发现这一条里面有 PS5 NAT 类型测试：
-
-![PS5 NAT 测试](./img/image_stun.png)
-
-指定走节点试一下。
-
-> **反馈**：不行，试一下另外那个规则，如果还是不行那就是节点问题了。
-
----
-
-### 2025-04-15（下）
-
-发现只要关闭 OpenClash，Remote 就可以直接连上了。
-
-此时 UPNP 活动的协议有：
-||||主机名称||描述|协议|
-|-|-|-|-|-|-|-|
-|UDP|9308|192.168.7.233|ps5-proxy|9308|192.168.7.233:9308 to 9308|(UDP)|
-|UDP|8572|192.168.7.233|ps5-proxy|8572|192.168.7.233:8572 to 8572|(UDP)|
-|UDP|9303|192.168.7.233|ps5-proxy|9303|192.168.7.233:9303 to 9303|(UDP)|
-|UDP|57448|192.168.7.233|ps5-proxy|57448|192.168.7.233:57448 to 57448|(UDP)|
-|UDP|9297|192.168.7.233|ps5-proxy|9297|192.168.7.233:9297 to 9297|(UDP)|
-
-目前看来 UPNP 可以一直开着，不需要手动防火墙开端口了。
-
-现在需要测试开启 OpenClash 之后，~~黑白名单里面加入不走核心的 WAN IP，是否也是同样效果~~。
-
-> **反馈**：应该在"来源流量访问控制"里面添加需要不走核心的 IP。
-
-如下图设置，可以使指定 IP 不走 OpenClash 核心，此时借助 UPNP 可以实现 Remote 连接成功：
-
-![来源流量访问控制](./img/image_188.png)
-
-目前对 OpenClash 的修改为：
-
-- 删除了覆写设置的 -ip188 的直连，因为走核心还是会 NAT 失败
-- 防火墙恢复默认设置
-- 删除了覆写设置-DNS 设置-Fake-IP-Filter-Mode 关于 PlayStation 的域名
-- 增加了不走核心的 WAN-IP-188
-
-**破案了，节点不支持 UDP** ~~只剩下解决开着 OpenClash 时 PS5-NAT 类型失败的问题了~~。
-
-![PS5 OpenClash](./img/ps5-openclash.png)
-
-但是更换支持 UDP 转发的节点也无法远程成功？？
-
-应该是走 NAT 的 STUN 域名没有走 UDP 节点。
-
 ---
 
 ### 2025-04-15（上）
-
-增强和 TUN 好像对 NAT 类型获取没什么太大作用，现在改回增强灯光也正常。
 
 在覆写设置-DNS 设置-Fake-IP-Filter-Mode 里面把以下域名加入到域名列表：
 
@@ -120,25 +30,6 @@ ruleset=🚀 强制代理,https://raw.githubusercontent.com/Aethersailor/Custom_
 - `*.stun.playstation.net`
 - `*.sonyentertainmentnetwork.com`
 - `*.sony.com`
-
-~~在防火墙的常规设置里面将出入站转发都设置为接受~~
-
-~~防火墙-端口转发里面增加了两条端口转发~~
-
-- **8572**：PS Remote Play 所需的 UDP 端口
-- **3478-3479**：针对 STUN 这个获取 NAT 类型域名的端口
-
----
-
-### 2025-04-14
-
-~~模式设置-fakeip 增强模式存在 NAT 问题~~
-
-~~表现为 PS5 获取 NAT 类型不稳定，此时需要使用 TUN 混合模式~~
-
-~~神奇的是改成 TUN 模式后，路由器灯光也变成蓝绿正常灯光了~~
-
-另外新增 `yx_clash.ini` 配置文件，OpenClash 专用。
 
 ---
 
@@ -159,18 +50,6 @@ ruleset=🚀 强制代理,https://raw.githubusercontent.com/Aethersailor/Custom_
 ```
 https://mirrors.cernet.edu.cn/immortalwrt
 ```
-
-### 常用软件包名
-
-| 包名 | 备注 |
-|------|------|
-| luci-theme-argon | **Argon 主题** |
-| luci-app-adguardhome | **最新版 CN 语言包 bug 解决见 adhome_config** |
-| | ~~建议下载 20221023，自带中文。最新版安装英文后再安装中文好像有冲突~~ |
-| *~~luci-app-arpbind~~* | *~~IP/MAC 地址绑定~~* |
-| | 自带，不用搞这个 |
-| luci-app-openclash | |
-| luci-app-upnp | 安装 zh-cn 语言包，其余自动安装 |
 
 ---
 
@@ -226,8 +105,6 @@ https://mirrors.cernet.edu.cn/immortalwrt
 
 勾选路由本机代理、禁用 QUIC、绕过服务器地址、实验性绕过中国大陆 IP（配置延迟低的 DNS）、仅允许内网。
 
-仅允许内网下方选择 WAN 接口名字为 `pppoe-wan`（个人配置不同）。
-
 LAN 接口配置为 `br-lan`。
 
 ![流量控制](./img/image-5.png)
@@ -276,16 +153,6 @@ LAN 接口配置为 `br-lan`。
 
 可以使用默认链接。
 
-**GeoIP-MMDB**：
-- https://github.com/Hackl0us/GeoIP2-CN/raw/release/Country.mmdb
-- 链接来源仓库：https://github.com/Hackl0us/GeoIP2-CN?tab=readme-ov-file
-
-**GeoIP-Dat**：
-- https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geoip.dat
-- 链接来源仓库：https://github.com/Loyalsoldier/v2ray-rules-dat
-
-> **注意**：geoipDat 老版本数据库，文件太大，不采用。
-
 > **重要**：每天或每周更新一次，设置完自定义 URL 后点击检查并更新进行更新，单纯点击保存配置没有用。
 
 ![GEO 数据库订阅](./img/img_11.png)
@@ -293,15 +160,6 @@ LAN 接口配置为 `br-lan`。
 ### 插件-大陆白名单订阅
 
 勾选自动更新，其余默认即可。
-
-可选其余 URL：
-
-![大陆白名单订阅](./img/image-9.png)
-
-- **IPv4 URL**：https://raw.githubusercontent.com/mayaxcn/china-ip-list/master/chnroute.txt
-- **IPv6 URL**：https://raw.githubusercontent.com/mayaxcn/china-ip-list/master/chnroute_v6.txt
-
-> **注意**：这俩跟默认没有区别。
 
 ![大陆白名单配置](./img/img_12.png)
 
@@ -353,10 +211,6 @@ LAN 接口配置为 `br-lan`。
 
 按如图配置即可，更新 push 后过几分钟更新规则即可生效，避免重启服务，链接如下：
 
-```
-https://raw.githubusercontent.com/yixuan-ovo/TutorialFiles_yx/refs/heads/main/OpenClash/direct_rules/yx_direct.yaml
-```
-
 ![规则附加 1](./img/111.png)
 
 ![规则附加 2](./img/222.png)
@@ -365,7 +219,7 @@ https://raw.githubusercontent.com/yixuan-ovo/TutorialFiles_yx/refs/heads/main/Op
 
 ## OpenClash 配置订阅
 
-> **重要**：漏网之鱼不能选全球直连！选择直连会泄露 DNS。此时在绕过大陆 IP 选项的作用下，国内 IP 不会走 Clash 内核。
+> **重要**：漏网之鱼不能选全球直连！会泄露 DNS。此时在绕过大陆 IP 选项的作用下，国内 IP 不会走 Clash 内核。
 
 测试 DNS 泄露网址：https://browserleaks.com/dns
 

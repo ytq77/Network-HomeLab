@@ -1,26 +1,7 @@
-## 修改存放日志位置即可解决空间不足问题
-```bash
-vim /etc/AdGuarnHome.yaml
-```
-```
-querylog:
-  dir_path: "/tmp"    # 只指向 /tmp 目录
-  ...
-statistics:
-  dir_path: "/tmp"    # 只指向 /tmp 目录
-```
+## 更新
+### 2026.2.9
 
-## ~~AdGuardHome 安装目录需要定期清理的文件~~
-
-~~以下路径需要定期清理：~~
-
-~~- `/usr/bin/AdGuardHome/data/`~~
-
-### ~~需要清理的文件类型~~
-
-~~**`.json.1` 文件**：历史日志文件，占用空间大~~
-
-~~**`txt.old` 文件**：历史规则文件，占用空间大，需要定期删除~~
+`在AGH配置ps5绕过AGH即可,此时ps5nat类型稳定测试为2,并且上传下载速度都正常`
 
 ---
 
