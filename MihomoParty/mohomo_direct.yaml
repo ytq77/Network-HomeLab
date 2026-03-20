@@ -100,3 +100,4 @@ rewrite:
   - DOMAIN-SUFFIX,unpkg.com,🚀 强制代理
   - DOMAIN-SUFFIX,app.framerstatic.com,🚀 强制代理
   - DOMAIN-SUFFIX,framer.com,🚀 强制代理
+  - DOMAIN-SUFFIX,dl.tailscale.com,🚀 强制代理

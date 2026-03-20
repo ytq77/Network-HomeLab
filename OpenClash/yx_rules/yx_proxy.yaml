@@ -21,3 +21,4 @@ rules:
   - DOMAIN-SUFFIX,unpkg.com
   - DOMAIN-SUFFIX,app.framerstatic.com
   - DOMAIN-SUFFIX,framer.com
+  - DOMAIN-SUFFIX,dl.tailscale.com
