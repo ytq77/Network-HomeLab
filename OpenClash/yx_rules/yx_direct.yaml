@@ -1,15 +1,4 @@
 rules:
-  # ===== Tailscale 相关（必须直连） =====
-
-  # Tailscale 虚拟网段
-  - IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
-
-  # Tailscale MagicDNS
-  - IP-CIDR,100.100.100.100/32,DIRECT,no-resolve
-
-  # 本地 LAN（防止回程进代理）
-  - IP-CIDR,192.168.7.0/24,DIRECT,no-resolve
-
   # =============== 其余自定义域名 ===============
 
   # 直接连接特定的域名
