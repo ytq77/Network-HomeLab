@@ -5,9 +5,25 @@
 ---
 
 ## 更新日志
+### 2026-3-24
+PS5设置DHCP时nat类型失败原因为获取时走了不同的规则
+
+![alt text](./img/img_26324-1.png)
+
+此时如果想设置DHCP并NAT类型成功,则可以绑定MAC地址与IP
+
+走DHCP时自动获取绑定的IP地址
+
+![alt text](./img/img_26324-2.png)
+
+搭配openclash-覆写-规则设置内,指定该IP全部走一个节点组
+
+      SRC-IP-CIDR,192.168.7.233/32,🌐 PS & NS2
 
 ### 2026-2-6
 在AGH配置ps5绕过AGH即可,此时ps5nat类型稳定测试为2,并且上传下载速度都正常
+
+**最好配置设备的MAC地址**
 
 ![alt text](./img/img_260206.png)
 
