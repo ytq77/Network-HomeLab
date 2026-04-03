@@ -73,3 +73,4 @@ rules:
   - DOMAIN-SUFFIX,code.jquery.com
   - DOMAIN-SUFFIX,moondroplab.tech
   - DOMAIN-SUFFIX,diagrams.net
+  - DOMAIN-SUFFIX,easynvr.com

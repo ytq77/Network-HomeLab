@@ -22,3 +22,8 @@ rules:
   - DOMAIN-SUFFIX,app.framerstatic.com
   - DOMAIN-SUFFIX,framer.com
   - DOMAIN-SUFFIX,dl.tailscale.com
+  - DOMAIN-SUFFIX,missav.ai
+  - DOMAIN-SUFFIX,missav.live
+  - DOMAIN-SUFFIX,javchu.com
+  - DOMAIN-SUFFIX,av.jkforum.net
+  - DOMAIN-SUFFIX,kali.download

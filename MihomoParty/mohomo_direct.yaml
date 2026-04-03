@@ -101,3 +101,9 @@ rewrite:
   - DOMAIN-SUFFIX,app.framerstatic.com,🚀 强制代理
   - DOMAIN-SUFFIX,framer.com,🚀 强制代理
   - DOMAIN-SUFFIX,dl.tailscale.com,🚀 强制代理
+  - DOMAIN-SUFFIX,easynvr.com,DIRECT
+  - DOMAIN-SUFFIX,missav.ai,🚀 强制代理
+  - DOMAIN-SUFFIX,missav.live,🚀 强制代理
+  - DOMAIN-SUFFIX,javchu.com,🚀 强制代理
+  - DOMAIN-SUFFIX,av.jkforum.net,🚀 强制代理
+  - DOMAIN-SUFFIX,kali.download,🚀 强制代理
