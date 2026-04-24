@@ -27,3 +27,14 @@ rules:
   - DOMAIN-SUFFIX,javchu.com
   - DOMAIN-SUFFIX,av.jkforum.net
   - DOMAIN-SUFFIX,kali.download
+  - DOMAIN-SUFFIX,riolu-node.link
+  - DOMAIN-SUFFIX,riolu.link
+  - DOMAIN-SUFFIX,riolu.icu
+  - DOMAIN-SUFFIX,riolu.work
+  - DOMAIN-SUFFIX,riolu00.link
+  - DOMAIN-SUFFIX,relay.riolu01.link
+  - DOMAIN-SUFFIX,relay.moe233.org
+  - DOMAIN-SUFFIX,cdn.moe233.org
+  - DOMAIN-SUFFIX,edge.moe233.org
+  - DOMAIN-SUFFIX,edge.qchwnd.moe
+  - DOMAIN-SUFFIX,cdn.qchwnd.moe

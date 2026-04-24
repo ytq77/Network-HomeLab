@@ -107,3 +107,15 @@ rewrite:
   - DOMAIN-SUFFIX,javchu.com,🚀 强制代理
   - DOMAIN-SUFFIX,av.jkforum.net,🚀 强制代理
   - DOMAIN-SUFFIX,kali.download,🚀 强制代理
+  - PROCESS-NAME,Cursor.exe,🤖 GPT-AI
+  - DOMAIN-SUFFIX,riolu-node.link,🚀 强制代理
+  - DOMAIN-SUFFIX,riolu.link,🚀 强制代理
+  - DOMAIN-SUFFIX,riolu.icu,🚀 强制代理
+  - DOMAIN-SUFFIX,riolu.work,🚀 强制代理
+  - DOMAIN-SUFFIX,riolu00.link,🚀 强制代理
+  - DOMAIN-SUFFIX,relay.riolu01.link,🚀 强制代理
+  - DOMAIN-SUFFIX,relay.moe233.org,🚀 强制代理
+  - DOMAIN-SUFFIX,cdn.moe233.org,🚀 强制代理
+  - DOMAIN-SUFFIX,edge.moe233.org,🚀 强制代理
+  - DOMAIN-SUFFIX,edge.qchwnd.moe,🚀 强制代理
+  - DOMAIN-SUFFIX,cdn.qchwnd.moe,🚀 强制代理
