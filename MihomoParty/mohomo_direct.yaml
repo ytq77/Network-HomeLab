@@ -6,8 +6,8 @@ rewrite:
 # 附加规则
 +rules:
 # 域名被墙了
-#  - DOMAIN-SUFFIX,yixr.uno,DIRECT
-  - DOMAIN-SUFFIX,yixr.uno,🚀 强制代理
+  - DOMAIN-SUFFIX,yixr.uno,DIRECT
+  # - DOMAIN-SUFFIX,yixr.uno,🚀 强制代理
   - DOMAIN-SUFFIX,chatboxai.app,DIRECT
   - DOMAIN-SUFFIX,ingest.global-contribute.live-video.net,DIRECT
   - DOMAIN-SUFFIX,immersivetranslate.com,DIRECT
@@ -16,7 +16,7 @@ rewrite:
   - DOMAIN-SUFFIX,gyg.si,DIRECT
   - DOMAIN-KEYWORD,hxhelmet,DIRECT
   - DOMAIN-SUFFIX,oray.com,DIRECT
-  - DOMAIN-SUFFIX,cloudflare.com,DIRECT
+  - DOMAIN-SUFFIX,cloudflare.com,🚀 强制代理
   - DOMAIN-SUFFIX,lanhuapp.com,DIRECT
   - DOMAIN-SUFFIX,nelreports.net,REJECT
   - DOMAIN-SUFFIX,ys7.com,DIRECT

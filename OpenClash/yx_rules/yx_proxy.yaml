@@ -1,5 +1,5 @@
 rules:
-  - DOMAIN-SUFFIX,yixr.uno
+  # - DOMAIN-SUFFIX,yixr.uno
   - DOMAIN-SUFFIX,qinight.com
   - DOMAIN-SUFFIX,v2fy.com
 # 证书
@@ -38,3 +38,4 @@ rules:
   - DOMAIN-SUFFIX,edge.moe233.org
   - DOMAIN-SUFFIX,edge.qchwnd.moe
   - DOMAIN-SUFFIX,cdn.qchwnd.moe
+  - DOMAIN-SUFFIX,cloudflare.com
