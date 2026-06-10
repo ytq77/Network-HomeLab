@@ -7,7 +7,7 @@ rewrite:
 +rules:
 # 域名被墙了
   - DOMAIN-SUFFIX,yixr.uno,DIRECT
-  # - DOMAIN-SUFFIX,yixr.uno,🚀 强制代理
+  # - DOMAIN-SUFFIX,yixr.uno,🌍 强制代理
   - DOMAIN-SUFFIX,chatboxai.app,DIRECT
   - DOMAIN-SUFFIX,ingest.global-contribute.live-video.net,DIRECT
   - DOMAIN-SUFFIX,immersivetranslate.com,DIRECT
@@ -16,7 +16,7 @@ rewrite:
   - DOMAIN-SUFFIX,gyg.si,DIRECT
   - DOMAIN-KEYWORD,hxhelmet,DIRECT
   - DOMAIN-SUFFIX,oray.com,DIRECT
-  - DOMAIN-SUFFIX,cloudflare.com,🚀 强制代理
+  - DOMAIN-SUFFIX,cloudflare.com,🌍 强制代理
   - DOMAIN-SUFFIX,lanhuapp.com,DIRECT
   - DOMAIN-SUFFIX,nelreports.net,REJECT
   - DOMAIN-SUFFIX,ys7.com,DIRECT
@@ -56,38 +56,38 @@ rewrite:
   - DOMAIN-SUFFIX,emojiall.com,DIRECT
   - DOMAIN-SUFFIX,onlineconvertfree.com,DIRECT
   - DOMAIN-SUFFIX,ttsmaker.com,DIRECT
-  - DOMAIN-SUFFIX,qinight.com,🚀 强制代理
-  - DOMAIN-SUFFIX,v2fy.com,🚀 强制代理
-  - DOMAIN-SUFFIX,yandex.com,🚀 强制代理
+  - DOMAIN-SUFFIX,qinight.com,🌍 强制代理
+  - DOMAIN-SUFFIX,v2fy.com,🌍 强制代理
+  - DOMAIN-SUFFIX,yandex.com,🌍 强制代理
   - DOMAIN-SUFFIX,builtwith.com,DIRECT
   - DOMAIN-SUFFIX,linkz.ai,DIRECT
   
 # 天气API
   - DOMAIN-SUFFIX,open-meteo.com,DIRECT
 # 证书
-  - DOMAIN-SUFFIX,lencr.org,🚀 强制代理
+  - DOMAIN-SUFFIX,lencr.org,🌍 强制代理
 
   - DOMAIN-KEYWORD,yandex,DIRECT
   - DOMAIN-KEYWORD,yastatic,DIRECT
   - DOMAIN-SUFFIX,windisco.com,DIRECT
-  - DOMAIN-SUFFIX,18comic.vip,🚀 强制代理
-  - DOMAIN-SUFFIX,h233.eu.org,🚀 强制代理
+  - DOMAIN-SUFFIX,18comic.vip,🌍 强制代理
+  - DOMAIN-SUFFIX,h233.eu.org,🌍 强制代理
   - DOMAIN-SUFFIX,deqixs.com,DIRECT
   
   - DOMAIN-SUFFIX,bootgraph.com,DIRECT
-  - DOMAIN-SUFFIX,ex86q1p.com,🚀 强制代理
+  - DOMAIN-SUFFIX,ex86q1p.com,🌍 强制代理
   - DOMAIN-SUFFIX,cy227.com,DIRECT
   - DOMAIN-SUFFIX,txcb.net,DIRECT
 
   - DOMAIN-SUFFIX,qisuu.cc,DIRECT
-  - DOMAIN-SUFFIX,deepl.com,🚀 强制代理
+  - DOMAIN-SUFFIX,deepl.com,🌍 强制代理
   - DOMAIN-SUFFIX,sdszpdj.com,DIRECT
-  - DOMAIN-SUFFIX,cursordocs.com,🚀 强制代理
-  - DOMAIN-SUFFIX,obsproject.com,🚀 强制代理
-  - DOMAIN-KEYWORD,xfltd,🚀 强制代理
-  - DOMAIN-SUFFIX,fibxac.com,🚀 强制代理
-  - DOMAIN-KEYWORD,fibacc,🚀 强制代理
-  - DOMAIN-SUFFIX,niaowoclub.com,🚀 强制代理
+  - DOMAIN-SUFFIX,cursordocs.com,🌍 强制代理
+  - DOMAIN-SUFFIX,obsproject.com,🌍 强制代理
+  - DOMAIN-KEYWORD,xfltd,🌍 强制代理
+  - DOMAIN-SUFFIX,fibxac.com,🌍 强制代理
+  - DOMAIN-KEYWORD,fibacc,🌍 强制代理
+  - DOMAIN-SUFFIX,niaowoclub.com,🌍 强制代理
   - DOMAIN-SUFFIX,wacom.com,DIRECT
   - DOMAIN-SUFFIX,zdassets.com,DIRECT
   - DOMAIN-SUFFIX,zendesk.com,DIRECT
@@ -96,26 +96,26 @@ rewrite:
   - DOMAIN-SUFFIX,jquery.com,DIRECT
   - DOMAIN-SUFFIX,moondroplab.tech,DIRECT
   - DOMAIN-SUFFIX,diagrams.net,DIRECT
-  - DOMAIN-SUFFIX,sms-activate.io,🚀 强制代理
-  - DOMAIN-SUFFIX,unpkg.com,🚀 强制代理
-  - DOMAIN-SUFFIX,app.framerstatic.com,🚀 强制代理
-  - DOMAIN-SUFFIX,framer.com,🚀 强制代理
-  - DOMAIN-SUFFIX,dl.tailscale.com,🚀 强制代理
+  - DOMAIN-SUFFIX,sms-activate.io,🌍 强制代理
+  - DOMAIN-SUFFIX,unpkg.com,🌍 强制代理
+  - DOMAIN-SUFFIX,app.framerstatic.com,🌍 强制代理
+  - DOMAIN-SUFFIX,framer.com,🌍 强制代理
+  - DOMAIN-SUFFIX,dl.tailscale.com,🌍 强制代理
   - DOMAIN-SUFFIX,easynvr.com,DIRECT
-  - DOMAIN-SUFFIX,missav.ai,🚀 强制代理
-  - DOMAIN-SUFFIX,missav.live,🚀 强制代理
-  - DOMAIN-SUFFIX,javchu.com,🚀 强制代理
-  - DOMAIN-SUFFIX,av.jkforum.net,🚀 强制代理
-  - DOMAIN-SUFFIX,kali.download,🚀 强制代理
-  - PROCESS-NAME,Cursor.exe,🤖 GPT-AI
-  - DOMAIN-SUFFIX,riolu-node.link,🚀 强制代理
-  - DOMAIN-SUFFIX,riolu.link,🚀 强制代理
-  - DOMAIN-SUFFIX,riolu.icu,🚀 强制代理
-  - DOMAIN-SUFFIX,riolu.work,🚀 强制代理
-  - DOMAIN-SUFFIX,riolu00.link,🚀 强制代理
-  - DOMAIN-SUFFIX,relay.riolu01.link,🚀 强制代理
-  - DOMAIN-SUFFIX,relay.moe233.org,🚀 强制代理
-  - DOMAIN-SUFFIX,cdn.moe233.org,🚀 强制代理
-  - DOMAIN-SUFFIX,edge.moe233.org,🚀 强制代理
-  - DOMAIN-SUFFIX,edge.qchwnd.moe,🚀 强制代理
-  - DOMAIN-SUFFIX,cdn.qchwnd.moe,🚀 强制代理
+  - DOMAIN-SUFFIX,missav.ai,🌍 强制代理
+  - DOMAIN-SUFFIX,missav.live,🌍 强制代理
+  - DOMAIN-SUFFIX,javchu.com,🌍 强制代理
+  - DOMAIN-SUFFIX,av.jkforum.net,🌍 强制代理
+  - DOMAIN-SUFFIX,kali.download,🌍 强制代理
+  - PROCESS-NAME,Cursor.exe,🧠 AI 服务
+  - DOMAIN-SUFFIX,riolu-node.link,🌍 强制代理
+  - DOMAIN-SUFFIX,riolu.link,🌍 强制代理
+  - DOMAIN-SUFFIX,riolu.icu,🌍 强制代理
+  - DOMAIN-SUFFIX,riolu.work,🌍 强制代理
+  - DOMAIN-SUFFIX,riolu00.link,🌍 强制代理
+  - DOMAIN-SUFFIX,relay.riolu01.link,🌍 强制代理
+  - DOMAIN-SUFFIX,relay.moe233.org,🌍 强制代理
+  - DOMAIN-SUFFIX,cdn.moe233.org,🌍 强制代理
+  - DOMAIN-SUFFIX,edge.moe233.org,🌍 强制代理
+  - DOMAIN-SUFFIX,edge.qchwnd.moe,🌍 强制代理
+  - DOMAIN-SUFFIX,cdn.qchwnd.moe,🌍 强制代理
