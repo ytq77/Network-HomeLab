@@ -118,3 +118,5 @@
   - DOMAIN-SUFFIX,edge.qchwnd.moe,🌍 强制代理
   - DOMAIN-SUFFIX,cdn.qchwnd.moe,🌍 强制代理
   - DOMAIN-SUFFIX,r2.cloudflarestorage.com,DIRECT
+  - DOMAIN,production.cloudfront.docker.com,DIRECT
+  - DOMAIN,production.cloudflare.docker.com,DIRECT

@@ -75,3 +75,5 @@ rules:
   - DOMAIN-SUFFIX,diagrams.net
   - DOMAIN-SUFFIX,easynvr.com
   - DOMAIN-SUFFIX,r2.cloudflarestorage.com
+  - DOMAIN,production.cloudfront.docker.com
+  - DOMAIN,production.cloudflare.docker.com
