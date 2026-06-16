@@ -81,3 +81,4 @@ rules:
   - DOMAIN,download-r2.pytorch.org
   - DOMAIN,pypi.nvidia.com
   - DOMAIN-SUFFIX,files.pythonhosted.org
+  - DOMAIN-SUFFIX,cas-bridge.xethub.hf.co
