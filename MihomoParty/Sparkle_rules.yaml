@@ -123,3 +123,5 @@
   - DOMAIN,download.pytorch.org,DIRECT
   - DOMAIN,download-r2.pytorch.org,DIRECT
   - DOMAIN,pypi.nvidia.com,DIRECT
+  - DOMAIN-SUFFIX,pypi.org,🌍 强制代理
+  - DOMAIN-SUFFIX,files.pythonhosted.org,DIRECT

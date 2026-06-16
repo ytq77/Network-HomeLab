@@ -39,3 +39,4 @@ rules:
   - DOMAIN-SUFFIX,edge.qchwnd.moe
   - DOMAIN-SUFFIX,cdn.qchwnd.moe
   - DOMAIN-SUFFIX,cloudflare.com
+  - DOMAIN-SUFFIX,pypi.org
