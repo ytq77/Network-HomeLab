@@ -77,3 +77,6 @@ rules:
   - DOMAIN-SUFFIX,r2.cloudflarestorage.com
   - DOMAIN,production.cloudfront.docker.com
   - DOMAIN,production.cloudflare.docker.com
+  - DOMAIN,download.pytorch.org
+  - DOMAIN,download-r2.pytorch.org
+  - DOMAIN,pypi.nvidia.com

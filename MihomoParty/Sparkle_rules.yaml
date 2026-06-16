@@ -120,3 +120,6 @@
   - DOMAIN-SUFFIX,r2.cloudflarestorage.com,DIRECT
   - DOMAIN,production.cloudfront.docker.com,DIRECT
   - DOMAIN,production.cloudflare.docker.com,DIRECT
+  - DOMAIN,download.pytorch.org,DIRECT
+  - DOMAIN,download-r2.pytorch.org,DIRECT
+  - DOMAIN,pypi.nvidia.com,DIRECT
