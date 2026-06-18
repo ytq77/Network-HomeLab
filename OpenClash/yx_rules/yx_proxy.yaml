@@ -16,7 +16,7 @@ rules:
   - DOMAIN-KEYWORD,xfltd
   - DOMAIN-KEYWORD,fibacc
   - DOMAIN-SUFFIX,fibxac.com
-  - DOMAIN-SUFFIX,niaowoclub.com
+  # - DOMAIN-SUFFIX,niaowoclub.com
   - DOMAIN-SUFFIX,sms-activate.io
   - DOMAIN-SUFFIX,unpkg.com
   - DOMAIN-SUFFIX,app.framerstatic.com

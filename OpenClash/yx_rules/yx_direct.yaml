@@ -14,7 +14,6 @@ rules:
   - DOMAIN-KEYWORD,hxhelmet
   - DOMAIN-SUFFIX,oray.com
   - DOMAIN-SUFFIX,ys7.com
-  - DOMAIN-SUFFIX,ys7.com
   - DOMAIN-SUFFIX,xitongzhijia.net
   - DOMAIN-SUFFIX,sdkjjt.com
   - DOMAIN-SUFFIX,pcmoe.net
