@@ -82,3 +82,4 @@ rules:
   - DOMAIN-SUFFIX,files.pythonhosted.org
   - DOMAIN-SUFFIX,cas-bridge.xethub.hf.co
   - DOMAIN-SUFFIX,frontier.snssdk.com
+  - DOMAIN-SUFFIX,gofile.io

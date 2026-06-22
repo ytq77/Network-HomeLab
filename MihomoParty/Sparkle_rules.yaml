@@ -129,3 +129,4 @@
   - DOMAIN-SUFFIX,frontier.snssdk.com,DIRECT
     # AdGuard 官方静态资源与更新域名
   - DOMAIN-SUFFIX,adtidy.org,🌍 强制代理
+  - DOMAIN-SUFFIX,gofile.io,DIRECT
