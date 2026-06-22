@@ -126,3 +126,4 @@
   - DOMAIN-SUFFIX,pypi.org,🌍 强制代理
   - DOMAIN-SUFFIX,files.pythonhosted.org,DIRECT
   - DOMAIN-SUFFIX,cas-bridge.xethub.hf.co,DIRECT
+  - DOMAIN-SUFFIX,frontier.snssdk.com,DIRECT

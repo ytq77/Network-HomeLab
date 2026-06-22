@@ -81,3 +81,4 @@ rules:
   - DOMAIN,pypi.nvidia.com
   - DOMAIN-SUFFIX,files.pythonhosted.org
   - DOMAIN-SUFFIX,cas-bridge.xethub.hf.co
+  - DOMAIN-SUFFIX,frontier.snssdk.com
