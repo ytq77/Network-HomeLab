@@ -40,3 +40,5 @@ rules:
   - DOMAIN-SUFFIX,cdn.qchwnd.moe
   - DOMAIN-SUFFIX,cloudflare.com
   - DOMAIN-SUFFIX,pypi.org
+  # AdGuard 官方静态资源与更新域名
+  - DOMAIN-SUFFIX,adtidy.org
