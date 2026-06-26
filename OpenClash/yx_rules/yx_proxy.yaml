@@ -42,3 +42,5 @@ rules:
   - DOMAIN-SUFFIX,pypi.org
   # AdGuard 官方静态资源与更新域名
   - DOMAIN-SUFFIX,adtidy.org
+  - DOMAIN-SUFFIX,usbdev.ru
+  - DOMAIN-SUFFIX,search-sharp.com

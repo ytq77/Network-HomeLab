@@ -130,3 +130,6 @@
     # AdGuard 官方静态资源与更新域名
   - DOMAIN-SUFFIX,adtidy.org,🌍 强制代理
   - DOMAIN-SUFFIX,gofile.io,DIRECT
+  - DOMAIN-SUFFIX,sdkjhx.com,DIRECT
+  - DOMAIN-SUFFIX,usbdev.ru,🌍 强制代理
+  - DOMAIN-SUFFIX,search-sharp.com,🌍 强制代理
