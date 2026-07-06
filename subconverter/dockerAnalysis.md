@@ -86,7 +86,7 @@
 # Docker Linux
 
 ## docker国内镜像源无法使用问题参考
-## - https://github.com/yixuan-ovo/docker_image_pusher
+## - https://github.com/ytq77/docker_image_pusher
 
 ## 拉取镜像并启动(没梯子不要用，用上面的教程)
 

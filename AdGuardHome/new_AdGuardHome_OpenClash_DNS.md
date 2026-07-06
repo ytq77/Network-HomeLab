@@ -746,8 +746,8 @@ grep -RnsE \
 
 ## 20. 参考资料
 
-- [原 AdGuard Home 配置记录](https://github.com/yixuan-ovo/Network-HomeLab/blob/main/AdGuardHome/AdGuardHome_config.md)
-- [原 OpenClash 配置记录](https://github.com/yixuan-ovo/Network-HomeLab/blob/main/OpenClash/Clash_config.md)
+- [原 AdGuard Home 配置记录](https://github.com/ytq77/Network-HomeLab/blob/main/AdGuardHome/AdGuardHome_config.md)
+- [原 OpenClash 配置记录](https://github.com/ytq77/Network-HomeLab/blob/main/OpenClash/Clash_config.md)
 - [AdGuard Home Wiki：Configuration](https://github.com/AdguardTeam/AdGuardHome/wiki/Configuration)
 - [AdGuard Home Wiki：Getting Started](https://github.com/AdguardTeam/AdGuardHome/wiki/Getting-Started)
 - [OpenWrt Wiki：AdGuard Home](https://openwrt.org/docs/guide-user/services/dns/adguard-home)

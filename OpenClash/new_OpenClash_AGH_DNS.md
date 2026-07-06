@@ -828,8 +828,8 @@ OpenClash 实际服务名称可能随安装包不同，以本机 `/etc/init.d/` 
 
 ## 13. 参考资料
 
-- [原 OpenClash 配置记录](https://github.com/yixuan-ovo/Network-HomeLab/blob/main/OpenClash/Clash_config.md)
-- [原 AdGuard Home 配置记录](https://github.com/yixuan-ovo/Network-HomeLab/blob/main/AdGuardHome/AdGuardHome_config.md)
+- [原 OpenClash 配置记录](https://github.com/ytq77/Network-HomeLab/blob/main/OpenClash/Clash_config.md)
+- [原 AdGuard Home 配置记录](https://github.com/ytq77/Network-HomeLab/blob/main/AdGuardHome/AdGuardHome_config.md)
 - [OpenClash Wiki：DNS 设置](https://github.com/vernesong/OpenClash/wiki/DNS%E8%AE%BE%E7%BD%AE)
 - [OpenClash Wiki：配置文件](https://github.com/vernesong/OpenClash/wiki/%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6)
 - [Mihomo Docs：DNS 配置](https://wiki.metacubex.one/config/dns/)

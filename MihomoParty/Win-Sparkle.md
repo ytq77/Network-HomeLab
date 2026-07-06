@@ -152,7 +152,7 @@ rewrite:
 
 ## 空白订阅
 
-粘贴订阅地址即可（需要复制 Clash 或者通用订阅，其余订阅需要进行转换），支持模板自定义订阅转换，参考[这里](https://raw.githubusercontent.com/yixuan-ovo/ImmortalWrt-Files/refs/heads/main/OpenClash/openclash-tutorials/%E4%B8%80%E4%B8%AA%E9%93%BE%E6%8E%A5%E5%90%8C%E6%97%B6%E5%AE%9E%E7%8E%B0%E9%85%8D%E7%BD%AE%E6%A8%A1%E6%9D%BF%E5%92%8C%E5%90%8E%E7%AB%AF%E8%AE%A2%E9%98%85%E8%BD%AC%E6%8D%A2.md)。
+粘贴订阅地址即可（需要复制 Clash 或者通用订阅，其余订阅需要进行转换），支持模板自定义订阅转换，参考[这里](https://raw.githubusercontent.com/ytq77/ImmortalWrt-Files/refs/heads/main/OpenClash/openclash-tutorials/%E4%B8%80%E4%B8%AA%E9%93%BE%E6%8E%A5%E5%90%8C%E6%97%B6%E5%AE%9E%E7%8E%B0%E9%85%8D%E7%BD%AE%E6%A8%A1%E6%9D%BF%E5%92%8C%E5%90%8E%E7%AB%AF%E8%AE%A2%E9%98%85%E8%BD%AC%E6%8D%A2.md)。
 
 **如果你的订阅链接需要代理才可以更新**：
 
