@@ -57,3 +57,14 @@ payload:
   - DOMAIN-SUFFIX,cost-optimization-hub.us-east-1.amazonaws.com
   - DOMAIN-SUFFIX,ec2.ap-southeast-1.amazonaws.com
   - DOMAIN-SUFFIX,support.us-east-1.amazonaws.com
+  - DOMAIN-SUFFIX,signin.aws.amazon.com
+  - DOMAIN-SUFFIX,signin.aws
+  - DOMAIN-SUFFIX,console.aws.a2z.com
+  - DOMAIN-SUFFIX,awsstatic.com
+  - DOMAIN,freetier.us-east-1.api.aws
+  - DOMAIN,uxc.ap-southeast-1.api.aws
+  - DOMAIN,uxc.us-east-1.api.aws
+  - DOMAIN,account.us-east-1.api.aws
+  - DOMAIN,ec2.us-east-1.amazonaws.com
+  - DOMAIN,d2c.aws.amazon.com
+  - DOMAIN-WILDCARD,moe233-riolu-*.qchwnd.moe
