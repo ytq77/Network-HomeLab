@@ -46,3 +46,14 @@ payload:
   - DOMAIN-SUFFIX,search-sharp.com
   - DOMAIN-SUFFIX,gofile.io
   - DOMAIN-SUFFIX,account.sony.com
+  - DOMAIN-SUFFIX,console.aws.amazon.com
+  - DOMAIN-SUFFIX,console.api.aws
+  - DOMAIN-SUFFIX,console.awsstatic.com
+  - DOMAIN-SUFFIX,notifications.us-east-1.amazonaws.com
+  - DOMAIN-SUFFIX,notifications.ap-southeast-1.amazonaws.com
+  - DOMAIN-SUFFIX,securityhub.ap-southeast-1.amazonaws.com
+  - DOMAIN-SUFFIX,health.us-east-1.amazonaws.com
+  - DOMAIN-SUFFIX,ce.us-east-1.amazonaws.com
+  - DOMAIN-SUFFIX,cost-optimization-hub.us-east-1.amazonaws.com
+  - DOMAIN-SUFFIX,ec2.ap-southeast-1.amazonaws.com
+  - DOMAIN-SUFFIX,support.us-east-1.amazonaws.com
