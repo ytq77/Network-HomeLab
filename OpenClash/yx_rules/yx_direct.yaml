@@ -88,3 +88,36 @@ payload:
   - DOMAIN-SUFFIX,sdkjhx.com
   # - DOMAIN-SUFFIX,account.sony.com
   - DOMAIN-SUFFIX,deqixs.cc
+  # 2026-10-09 候选增补：建议先直连，32 条
+  - DOMAIN,cacerts.digicert.com
+  - DOMAIN,ocsp.sectigo.com
+  - DOMAIN,ocsp.digicert.com
+  - DOMAIN,ocsp.usertrust.com
+  - DOMAIN,gfwsl.geforce.com
+  - DOMAIN,driverhub.asus.com
+  - DOMAIN,www.asus.com
+  - DOMAIN,rog-live-service.asus.com
+  - DOMAIN,config-rog-live-service.asus.com
+  - DOMAIN,id.logi.com
+  - DOMAIN,updates.logitech.com
+  - DOMAIN,wpc-download.gfe.nvidia.com
+  - DOMAIN,crt.comodoca.com
+  - DOMAIN,ocsp.r2m04.amazontrust.com
+  - DOMAIN,ocsp.r2m01.amazontrust.com
+  - DOMAIN,crl.comodoca.com
+  - DOMAIN,www.internetdownloadmanager.com
+  - DOMAIN,ocsps.ssl.com
+  - DOMAIN,secure.internetdownloadmanager.com
+  - DOMAIN,mirror5.internetdownloadmanager.com
+  - DOMAIN,ocsp.comodoca.com
+  - DOMAIN,www.voidtools.com
+  - DOMAIN,ocsp2.globalsign.com
+  - DOMAIN,crl.globalsign.com
+  - DOMAIN,status.thawte.com
+  - DOMAIN,ocsp.globalsign.com
+  - DOMAIN,status.rapidssl.com
+  - DOMAIN,www.nvidia.com
+  - DOMAIN,images.nvidia.com
+  - DOMAIN,dlcdn-rogboxbu2.asus.com
+  - DOMAIN,crt.sectigo.com
+  - DOMAIN,gearlink.asus.com
