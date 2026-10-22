@@ -123,3 +123,4 @@ payload:
   - DOMAIN,gearlink.asus.com
   # 血缘在线地图
   - DOMAIN-SUFFIX,thehuntersdream.com
+  - DOMAIN-SUFFIX,iopq.net
