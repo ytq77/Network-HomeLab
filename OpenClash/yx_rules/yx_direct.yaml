@@ -121,49 +121,8 @@ payload:
   - DOMAIN,dlcdn-rogboxbu2.asus.com
   - DOMAIN,crt.sectigo.com
   - DOMAIN,gearlink.asus.com
-# 2026-11-12 候选增补：建议先直连，45 条
-  - DOMAIN,crt.usertrust.com
-  - DOMAIN,dd-wrt.com
-  - DOMAIN,wiki.dd-wrt.com
-  - DOMAIN,liveupdate01s.asus.com
-  - DOMAIN,test.internetdownloadmanager.com
-  - DOMAIN,mikrotik.com
-  - DOMAIN,download.mikrotik.com
-  - DOMAIN,help.mikrotik.com
-  - DOMAIN,www.7-zip.org
-  - DOMAIN,ota-downloads.nvidia.com
-  - DOMAIN,crl3.digicert.com
-  - DOMAIN,verify.snssdk.com
-  - DOMAIN,vcs.snssdk.com
-  - DOMAIN,bsbsb.cc
-  - DOMAIN,mirror.msys2.org
-  - DOMAIN,repo.msys2.org
-  - DOMAIN,archive.ubuntu.com
-  - DOMAIN,security.ubuntu.com
-  - DOMAIN,motd.ubuntu.com
-  - DOMAIN,firmware-selector.immortalwrt.org
-  - DOMAIN,start.adspower.net
-  - DOMAIN,crls.ssl.com
-  - DOMAIN,www.adspower.com
-  - DOMAIN,app.adspower.net
-  - DOMAIN,api.adspower.net
-  - DOMAIN,api.salesmartly.com
-  - DOMAIN,msg.salesmartly.com
-  - DOMAIN,app.adspower.com
-  - DOMAIN,app-global.adspower.net
-  - DOMAIN,api-global.adspower.net
-  - DOMAIN,api.adspower.com
-  - DOMAIN,www.kingston.com
-  - DOMAIN,tdengine.com
-  - DOMAIN,downloads.immortalwrt.org
-  - DOMAIN,www.officetool.plus
-  - DOMAIN,antibody-software.com
-  - DOMAIN,diskanalyzer.com
-  - DOMAIN,models.dev
-  - DOMAIN,handbrake.fr
-  - DOMAIN,login.nvgs.nvidia.com
-  - DOMAIN,www.win-rar.com
-  - DOMAIN,ccswitch.io
-  - DOMAIN,validation.identrust.com
-  - DOMAIN,commercial.ocsp.identrust.com
-  - DOMAIN,geekuninstaller.com
+  # 血缘在线地图
+  - DOMAIN-SUFFIX,game.supermedo.com
+  - DOMAIN-SUFFIX,np.supermedo.com
+  
+  - DOMAIN-SUFFIX,iopq.net
