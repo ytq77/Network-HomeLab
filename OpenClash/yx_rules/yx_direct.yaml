@@ -2,6 +2,7 @@ payload:
   - IP-CIDR,17.252.203.0/24,no-resolve
   - 'AND,((IP-CIDR,172.168.90.242/32,no-resolve),(DST-PORT,6100/51226-51227),(NETWORK,udp))'
   - 'AND,((IP-CIDR,172.168.90.242/32,no-resolve),(DST-PORT,51226/51228-51229),(NETWORK,tcp))'
+  - IP-CIDR,144.123.43.138/32,no-resolve
   # =============== 其余自定义域名 ===============
 
   # 直接连接特定的域名
