@@ -257,3 +257,14 @@ payload:
   - DOMAIN,img.shields.io
   - DOMAIN,c01.lgrecommends.lgappstv.com
   - DOMAIN,ngfts.lge.com
+  # 11 月 12 日列出的 227 个中：7 个
+  - DOMAIN,ohttp-relay-safebrowsing-chrome.google.fastly-edge.com
+  - DOMAIN,updates.ghub.logitechg.com
+  - DOMAIN,apps.gxn.nvidia.com
+  - DOMAIN,accounts.nvgs.nvidia.com
+  - DOMAIN,webassets.nvidia.com
+  - DOMAIN,brand-assets.cne.ngc.nvidia.com
+  - DOMAIN,activation.gfe.nvidia.com
+  # 本次新增的 65 个中：2 个
+  - DOMAIN,www.porn-comic.com
+  - DOMAIN,s.yimg.jp

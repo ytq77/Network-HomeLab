@@ -1,2 +1,20 @@
 payload:
   - DOMAIN-SUFFIX,nelreports.net
+    # 广告、归因和受众测量
+  - DOMAIN,pgdt.ugdtimg.com
+  - DOMAIN,adsmind.ugdtimg.com
+  - DOMAIN,js.adsrvr.org
+  - DOMAIN,insight.adsrvr.org
+  - DOMAIN,match.adsrvr.org
+  - DOMAIN,cnv.event.prod.bidr.io
+  - DOMAIN,c0.adalyser.com
+  - DOMAIN,collector-20079.tvsquared.com
+  - DOMAIN,sb.scorecardresearch.com
+  - DOMAIN,cdn.exelator.com
+  - DOMAIN,c01.ad.lgsmartad.com
+
+  # 网站访问统计
+  - DOMAIN,js.users.51.la
+  - DOMAIN,ia.51.la
+  - DOMAIN,static.cloudflareinsights.com
+  - DOMAIN,cloudflareinsights.com

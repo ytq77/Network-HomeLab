@@ -175,3 +175,35 @@ payload:
   - DOMAIN,validation.identrust.com
   - DOMAIN,commercial.ocsp.identrust.com
   - DOMAIN,geekuninstaller.com
+  # 11 月 12 日列出的 227 个中：13 个
+  - DOMAIN,shadps4.net
+  - DOMAIN,crt.r2m04.amazontrust.com
+  - DOMAIN,crt.rootca1.amazontrust.com
+  - DOMAIN,comm.res.easebar.com
+  - DOMAIN,bbport.de
+  - DOMAIN,img.adspower.net
+  - DOMAIN,assets.salesmartly.com
+  - DOMAIN,client.salesmartly.com
+  - DOMAIN,forum.bbport.de
+  - DOMAIN,www.gitwarp.com
+  - DOMAIN,dl.ccswitch.io
+  - DOMAIN,api.qrserver.com
+  - DOMAIN,seamlesshunt.com
+  # 本次新增的 65 个中：17 个
+  - DOMAIN,www.datalearner.com
+  - DOMAIN,moonlight-stream.org
+  - DOMAIN,qt.conntest.moonlight-stream.org
+  - DOMAIN,downloadmirror.intel.com
+  - DOMAIN,cdn.fwupd.org
+  - DOMAIN,esm.ubuntu.com
+  - DOMAIN,yarnpkg.com
+  - DOMAIN,classic.yarnpkg.com
+  - DOMAIN,use.fontawesome.com
+  - DOMAIN,www.msys2.org
+  - DOMAIN,www.rfc-editor.org
+  - DOMAIN,ap-ss.static.pub
+  - DOMAIN,ap-img.static.pub
+  - DOMAIN,p4-ofp.static.pub
+  - DOMAIN,p1-ofp.static.pub
+  - DOMAIN,p2-ofp.static.pub
+  - DOMAIN,p3-ofp.static.pub
