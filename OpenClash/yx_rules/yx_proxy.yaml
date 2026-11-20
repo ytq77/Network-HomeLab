@@ -268,3 +268,5 @@ payload:
   # 本次新增的 65 个中：2 个
   - DOMAIN,www.porn-comic.com
   - DOMAIN,s.yimg.jp
+  # 英伟达浮窗
+  - DOMAIN,gfwsl.geforce.com

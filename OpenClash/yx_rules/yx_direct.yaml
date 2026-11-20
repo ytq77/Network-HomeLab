@@ -96,7 +96,6 @@ payload:
   - DOMAIN,ocsp.sectigo.com
   - DOMAIN,ocsp.digicert.com
   - DOMAIN,ocsp.usertrust.com
-  - DOMAIN,gfwsl.geforce.com
   - DOMAIN,driverhub.asus.com
   - DOMAIN,www.asus.com
   - DOMAIN,rog-live-service.asus.com
